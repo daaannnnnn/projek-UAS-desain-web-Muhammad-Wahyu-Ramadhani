@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Crimson Text', serif;
+}
+
+.center-caption{
+    top: 30%;
+    height: auto;
+    max-height: 120px;
+}
+
+.big-text {
+    color: rgb(255, 255, 255);
+    font-size: 38pt;
+    font-weight: 900;
+}
+
+.big-text-black {
+    color: black;
+    font-size: 38pt;
+    font-weight: 900;
+}
+
+.spacer {
+    height: 10px;
+    background-color: rgb(243, 243, 243);
+}
+
+
+.two-box{
+    background-color:rgb(3, 13, 19);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.center-dist {
+    align-self: center;
+    color: white;
+    font-size: 18pt;
+}
+
+div.gallery{
+    margin: 5px;
+    float: left;
+    width: 180px;
+  }
+   
+   
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+   
+
+i{
+    color: white;
+}
+
+@media screen and (max-width :922px) {
+    .center-caption{
+        top: 10%;
+    }
+    .big-text{
+        font-size: 24pt;
+
+    }
+    .center-dist{
+        text-align: center;
+    }
+ 
+}
